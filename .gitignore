@@ -1,0 +1,9 @@
+/**/*.log
+
+/build/
+
+/lib/go-sqlite3/
+/lib/go-sqlite3-1.14.16/
+
+/lnx801.db
+/lnx801.db-journal

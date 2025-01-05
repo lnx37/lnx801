@@ -1,0 +1,7 @@
+ALTER TABLE device ADD COLUMN mac VARCHAR(100) NOT NULL DEFAULT "";
+ALTER TABLE device_log ADD COLUMN mac VARCHAR(100) NOT NULL DEFAULT "";
+
+-- UPDATE device SET name="" WHERE name="unknown";
+-- UPDATE device_log SET name="" WHERE name="unknown";
+UPDATE device SET name='' WHERE name='unknown';
+UPDATE device_log SET name='' WHERE name='unknown';
